@@ -1,0 +1,62 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SQLite database & data directory
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/*
+!data/.gitkeep
+
+# Generated customer datasets & exports
+data/synthetic_db.json
+data/*.csv
+data/*.json
+*.csv
+*_events.csv
+*_journeys.json
+exports/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+venv312/
+.venv/
+
+# Editor files
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+

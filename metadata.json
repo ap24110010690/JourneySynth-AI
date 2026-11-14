@@ -1,0 +1,6 @@
+{
+  "name": "JourneySynth AI",
+  "description": "Synthetic omnichannel customer journey generator for retail personalization, recommendation testing, and conversion analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
